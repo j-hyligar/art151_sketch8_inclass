@@ -1,6 +1,6 @@
 //SKETCH 8
-//COMPLETED BY: your name
-///DATE: 
+//COMPLETED BY: jayden h
+///DATE: 11/16/26
 
 nn.on("load", () => {
 
@@ -61,11 +61,16 @@ nn.on("load", () => {
   // player sprite
 
   loadSprite(
-    "name",
+    "puppy", "assets/Dogs.png"
 
     // sprite file
 
     {
+    sliceX: 4;
+    sliceY: 4;
+    // anims: {
+    
+    // }
 
       // sprite animation
 
